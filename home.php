@@ -13,12 +13,14 @@ if (isset($_SESSION['usuario'])) {
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Sistema bancario</title>
+        <title>Independiente 2021</title>
         <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body class="container">
-      <div class="jumbotron text-center">
-      <h1>Sistema bancario</h1>
+      <div class="jumbotron text-center" style="background: #A90F1B;">
+      <h1>Bienvenido al sistema de socios</h1>
+      <img src="logoRojo.png" style="height: 150px;">
       </div>    
       <div class="text-center">
         <h3>Hola <?php echo $nomApe;?></h3>
