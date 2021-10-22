@@ -1,5 +1,9 @@
+.container{
+	background-image: url(textura.png);
+	
+}
 .container .jumbotron.text-center{
-        background: red;
+        background: #A90F1B;
         border: solid 5px #F0F1F1;
 }
 .container .jumbotron.text-center h1{
@@ -21,7 +25,7 @@
 	border: solid 3px #F0F1F1;
 }
 .container .text-center form .form-control.form-control-lg:hover{
-      border-color: red;
+      border-color: #A90F1B;
 }
 .container .text-center p a{
 	color: black;
@@ -35,5 +39,21 @@
 	margin-bottom: 20px;
 }
 .alert.alert-primary.text-center{
-	background: red !important;
+	background: #F0F1F1 !important;
+	border: solid 1px #A90F1B;
+}
+
+.container .pagar-cuota{
+	text-align: center;
+}
+.container .cuotas{
+	display: flex;
+
+}
+.text-center .btn.btn-primary{
+	background: #A90F1B;
+	color: white;
+}
+.text-center .boton .btn.btn-primary{
+	background: #A90F1B !important;
 }

@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body class="container">
+    <body class="container" style="background-image: url(textura.png);">
       <div class="jumbotron text-center">
       <h1>Club Atletico Independiente</h1>
       <img src="logoRojo.png">
@@ -23,12 +23,13 @@
             }
         ?>
 
-        <form action="login.php" method="post">
+        <form action="login.php" method="post" class="boton">
             <input name="usuario" class="form-control form-control-lg" placeholder="Usuario"><br>
             <input name="clave" type="text" class="form-control form-control-lg" placeholder="Contraseña"><br>
             <input type="submit" value="Ingresar" class="btn btn-primary">
         </form><br>
-        <p><a href="create.php">Crear nuevo usuario</a></p>
+
+        <a class="btn btn-primary" href="create.php">Crear nuevo usuario</a>
       </div> 
     </body>
 </html>

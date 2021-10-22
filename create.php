@@ -18,15 +18,18 @@ if (isset($_POST['usuario']) && isset($_POST['clave'])) {
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Bienvenido al sistema</title>
+        <title>Independiente 2021</title>
+        <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body class="container">
       <div class="jumbotron text-center">
-      <h1>Sistema bancario</h1>
+          <h1>Club atletico Independiente</h1>
+          <img src="logoRojo.png">
       </div>    
       <div class="text-center">
-        <h3>Crear nuevo usuario</h3>
+        <h3>Crear nuevo usuario en el sistema</h3>
         <?php
             if (isset($_GET['mensaje'])) {
                 echo '<div id="mensaje" class="alert alert-primary text-center">

@@ -17,7 +17,7 @@ if (isset($_SESSION['usuario'])) {
         <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body class="container">
+    <body class="container" style="background-image: url(textura.png);">
       <div class="jumbotron text-center" style="background: #A90F1B;">
       <h1>Bienvenido al sistema de socios</h1>
       <img src="logoRojo.png" style="height: 150px;">
@@ -25,6 +25,19 @@ if (isset($_SESSION['usuario'])) {
       <div class="text-center">
         <h3>Hola <?php echo $nomApe;?></h3>
         <p><a href="logout.php">Cerrar sesión</a></p>
+
+      </div> 
+      <br>
+      
+      <div class="text-center">
+        <h3>Informe balance 2021</h3>
+        <p><a href="informe.php">Ver informe</a></p>
+      </div> 
+      <br>
+      
+      <div class="text-center">
+        <h3>Registro de cuotas</h3>
+        <p><a href="cuotas.php">Ver registro</a></p>
       </div> 
     </body>
 </html>
